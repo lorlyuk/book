@@ -1,8 +1,8 @@
 {
-  "name" : "BackboneApp",
+  "name" : "backboneBook",
   "version" : "0.0.1",
   "dependencies": {
-    "express": "^4.0.0",
-    "body-parser": "^1.8.1"
+	  "express": "^4.0.0",
+	  "body-parser": "^1.8.1"
   }
 }
