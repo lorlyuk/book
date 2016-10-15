@@ -31,3 +31,15 @@ p{
 .error{
     border: 1px solid red;
 }
+.sample {
+   width: 40vw;
+   padding: 20px 15px;
+   margin: 40px;
+}
+.btn-lg {
+    margin: 20px;
+}
+.r h4 {
+    margin: 40px;
+    padding-top: 40px;
+}
