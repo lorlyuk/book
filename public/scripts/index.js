@@ -40,7 +40,7 @@ $(document).ready(function () {
                     $('#reg_btn').hide();
                     $('#home').css('display','inline-block');
                     loadSetings(sessionStorage.getItem('token'), sessionStorage.getItem('user_id'));
-                    toastr.info('Ви успішно зайшли на свою сторінку');
+                    toastr.success('Ви успішно зайшли на свою сторінку');
                 }
                 else {
                     toastr.error('Логін або пароль не вірний');
@@ -61,7 +61,7 @@ var registration = function () {
                         email: email
                     }
                 }).done(function (data) {
-                    toastr.info('Ви успішно зареєструвались');
+                    toastr.success('Ви успішно зареєструвались');
                 });
         };
 
@@ -89,8 +89,8 @@ var registration = function () {
         App.Models.StyleModel = Backbone.Model.extend ({
             defaults : {
                 'fontSize' : '14px',
-                'color' : '#000000',
-                'background' : '#ffffff',
+                'color' : '#ffffff',
+                'background' : '#000000',
                 'textAlign' : 'justify'
             }
         });

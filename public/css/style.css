@@ -39,7 +39,16 @@ p{
 .btn-lg {
     margin: 20px;
 }
-.r h4 {
+.center h4 {
     margin: 40px;
     padding-top: 40px;
+}
+.colorstyle {
+    color: white;
+}
+.colorstyle1{
+    color:black;
+}
+.backstyle {
+    background: #3A4B4C;
 }

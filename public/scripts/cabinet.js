@@ -11,8 +11,8 @@ $(function () {
     App.Models.StyleModel = Backbone.Model.extend ({
         defaults : {
             'fontSize' : '14px',
-            'color' : '#000000',
-            'background' : '#ffffff',
+            'color' : '#ffffff',
+            'background' : '#000000',
             'textAlign' : 'justify'
 
         },

@@ -34,5 +34,5 @@ app.post('/logout', function (req, res) {
 });
 
 app.listen(3000, function () {
-    console.log('book is listening on port 3000!');
+    console.log('book on port 3000!');
 });
